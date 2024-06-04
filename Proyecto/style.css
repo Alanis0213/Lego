@@ -1,0 +1,129 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #9b1d30e5;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 150px;
+
+}
+
+.logo-container {
+    float: left;
+    
+
+}
+
+.title-container {
+    float: left;
+    margin-top: -90px;
+    margin-left: 500px;
+
+}
+.lego{
+    width: 200px;
+    float: left;
+    margin-right: 1000px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+
+.imgC {
+    width: 200px;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    border: 5px solid #a8a8a8;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.menu {
+    position: relative;
+    float: right;
+}
+
+.imge {
+    width: 100px;
+    margin-top: -100px;
+    margin-right: 90px;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+}
+
+th h2,p,h2 {
+    font-family: 'Courier New';
+    font-size: 30px;
+}
+
+.carritoMenu  {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    display: none;
+    left: 1260px;
+    background-color: #e6e8e8;
+    border: 1px solid #d2d4c8;
+    padding: 10px;
+    display: none;
+    max-height: 300px;
+    box-shadow: 0 0 10px rgba(7, 0, 0, 0.1);
+}
+
+.carritoMenu button {
+    background-color: #4CAF50; 
+    color: rgb(244, 237, 237); 
+    padding: 6px ; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer; 
+    margin-bottom: 10px; 
+
+}
+
+.carritoMenu button:hover {
+    color: rgb(246, 245, 242);
+    background-color: #54bbbf;
+}
+
+
+
+
+th,td {
+    padding: 5px;
+}
+
+.agregar {
+    background-color: #4CAF50;
+    color: rgb(12, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.agregar:hover {
+    color: rgb(253, 247, 238);
+    background-color: #3c8a40;
+}
